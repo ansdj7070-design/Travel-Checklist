@@ -1,5 +1,4 @@
 {
-  "updatedAt": 1763349600000,
   "theme": "light",
   "fontScaleIndex": 0,
   "trip": {
@@ -59,14 +58,14 @@
     },
     {
       "id": "exp_1794356937522",
-      "date": "2026-11-15",
-      "endDate": "2026-11-15",
+      "date": "2026-11-26",
+      "endDate": "2026-12-02",
       "time": "09:27",
       "dayLabel": "사전준비",
       "category": "숙박",
       "subCategory": "호텔/리조트",
       "city": "방콕",
-      "place": "아바니 라차다",
+      "place": "Avani Rachada Hotel",
       "note": "",
       "unitPrice": 3700,
       "qty": 20,
@@ -92,8 +91,8 @@
     },
     {
       "id": "exp_1794357127323",
-      "date": "2026-11-15",
-      "endDate": "2026-11-15",
+      "date": "2026-11-26",
+      "endDate": "2026-12-02",
       "time": "09:28",
       "dayLabel": "사전준비",
       "category": "교통",
@@ -108,6 +107,39 @@
       "amountFx": 35000,
       "appliedRate": 41,
       "amountKrw": 1435000,
+      "paymentMethod": "현금(현지화)",
+      "payer": "__SHARED_KITTY__",
+      "beneficiaries": [
+        "강경오",
+        "이주형",
+        "김영미 엘리사벳",
+        "문병렬 제가리아",
+        "정재흔 안드레아",
+        "정경숙 마가렛",
+        "정하창 미카엘",
+        "허영해 크리스티나"
+      ],
+      "receiptStatus": "증빙없음",
+      "settleStatus": "정산대상"
+    },
+    {
+      "id": "exp_1794357227608",
+      "date": "2026-11-15",
+      "endDate": "2026-11-15",
+      "time": "09:32",
+      "dayLabel": "사전준비",
+      "category": "교통",
+      "subCategory": "공항픽업/샌딩밴",
+      "city": "김해",
+      "place": "동대구-김해 리무진",
+      "note": "",
+      "unitPrice": 13000,
+      "qty": 15,
+      "extraFee": 0,
+      "discount": 0,
+      "amountFx": 4756.1,
+      "appliedRate": 41,
+      "amountKrw": 195000,
       "paymentMethod": "현금(현지화)",
       "payer": "__SHARED_KITTY__",
       "beneficiaries": [
@@ -157,23 +189,23 @@
       "settleStatus": "정산대상"
     },
     {
-      "id": "exp_1794357227608",
-      "date": "2026-11-15",
-      "endDate": "2026-11-15",
-      "time": "09:32",
+      "id": "exp_1794889925742",
+      "date": "2026-11-17",
+      "endDate": "2026-11-17",
+      "time": "13:26",
       "dayLabel": "사전준비",
-      "category": "교통",
-      "subCategory": "공항픽업/샌딩밴",
-      "city": "김해",
-      "place": "공항픽업/샌딩밴 지출",
-      "note": "",
-      "unitPrice": 13000,
-      "qty": 15,
+      "category": "기타",
+      "subCategory": "여행자보험",
+      "city": "방콕",
+      "place": "https://mitravels.mibankins.com/apply?execution=e2s1",
+      "note": "여행자보험",
+      "unitPrice": 40000,
+      "qty": 8,
       "extraFee": 0,
       "discount": 0,
-      "amountFx": 4756.1,
+      "amountFx": 7804.88,
       "appliedRate": 41,
-      "amountKrw": 195000,
+      "amountKrw": 320000,
       "paymentMethod": "현금(현지화)",
       "payer": "__SHARED_KITTY__",
       "beneficiaries": [
@@ -189,5 +221,545 @@
       "receiptStatus": "영수증있음",
       "settleStatus": "정산대상"
     }
-  ]
+  ],
+  "checklistCategories": [
+    {
+      "id": "cat_doc",
+      "icon": "🛂",
+      "name": "필수서류 · 출입국 · 금융"
+    },
+    {
+      "id": "cat_todo",
+      "icon": "🏠",
+      "name": "출발전 필수 할일 (D-Day)"
+    },
+    {
+      "id": "cat_elec",
+      "icon": "🔌",
+      "name": "전자기기 · 로밍 · 충전"
+    },
+    {
+      "id": "cat_med",
+      "icon": "💊",
+      "name": "상비약 · 위생 · 건강"
+    },
+    {
+      "id": "cat_cloth",
+      "icon": "👕",
+      "name": "의류 · 패션 · 시즌용품"
+    },
+    {
+      "id": "cat_wash",
+      "icon": "🧴",
+      "name": "세면도구 · 화장품 · 미용"
+    },
+    {
+      "id": "cat_food",
+      "icon": "🍜",
+      "name": "비상식량 · 잡화 · 수하물용품"
+    },
+    {
+      "id": "cat_theme",
+      "icon": "⛳",
+      "name": "테마 · 동행 공용 준비물"
+    }
+  ],
+  "checklist": [
+    {
+      "id": "chk_init_1",
+      "categoryId": "cat_doc",
+      "title": "여권 (잔여 유효기간 6개월 이상 필수 확인)",
+      "note": "훼손 여부 및 서명란 서명 확인 (기내 필수 휴대)",
+      "qty": 1,
+      "bagType": "CARRY_ON",
+      "assignee": "__ALL__",
+      "important": true,
+      "checked": false
+    },
+    {
+      "id": "chk_init_2",
+      "categoryId": "cat_doc",
+      "title": "여권 사본 & 여권용 증명사진 2매",
+      "note": "여권 분실 대비 여권과 다른 가방에 분리 보관 + 휴대폰 촬영본 저장",
+      "qty": 2,
+      "bagType": "CARRY_ON",
+      "assignee": "__ALL__",
+      "important": true,
+      "checked": false
+    },
+    {
+      "id": "chk_init_3",
+      "categoryId": "cat_doc",
+      "title": "항공권 E-티켓 (출력본 및 모바일 캡처)",
+      "note": "입국심사 시 귀국 항공권 제시 요구 대비 (오프라인 캡처 필수)",
+      "qty": 1,
+      "bagType": "CARRY_ON",
+      "assignee": "__ALL__",
+      "important": true,
+      "checked": false
+    },
+    {
+      "id": "chk_init_4",
+      "categoryId": "cat_doc",
+      "title": "숙소(호텔/리조트) 예약 바우처 & 영문 주소",
+      "note": "입국신고서 작성 시 호텔 영문명·주소·전화번호 기재 필수",
+      "qty": 1,
+      "bagType": "CARRY_ON",
+      "assignee": "__SHARED__",
+      "important": true,
+      "checked": false
+    },
+    {
+      "id": "chk_init_5",
+      "categoryId": "cat_doc",
+      "title": "비자 / 전자입국신고서 (Visit Japan·ESTA·ETA·태국/대만 등)",
+      "note": "출국 72시간 전 온라인 사전 등록 및 QR코드 캡처 보관",
+      "qty": 1,
+      "bagType": "PRE_TODO",
+      "assignee": "__ALL__",
+      "important": true,
+      "checked": false
+    },
+    {
+      "id": "chk_init_6",
+      "categoryId": "cat_doc",
+      "title": "트래블카드(트래블월렛/트래블로그) & 해외결제 신용카드",
+      "note": "VISA / MASTER 브랜드별 최소 2장 분산 보관, IC칩 비밀번호 4자리 확인",
+      "qty": 2,
+      "bagType": "CARRY_ON",
+      "assignee": "__ALL__",
+      "important": true,
+      "checked": false
+    },
+    {
+      "id": "chk_init_7",
+      "categoryId": "cat_doc",
+      "title": "현지 통화 환전 현금 & 비상용 달러($100/$1 소액권)",
+      "note": "매너팁·야시장용 소액권 다수 준비, 공금 봉투와 개인 지갑 분리",
+      "qty": 1,
+      "bagType": "CARRY_ON",
+      "assignee": "__ALL__",
+      "important": true,
+      "checked": false
+    },
+    {
+      "id": "chk_init_8",
+      "categoryId": "cat_doc",
+      "title": "해외여행자보험 가입증서 (영문 증서/연락처)",
+      "note": "휴대품 파손·항공기 지연·해외 의료비 특약 확인",
+      "qty": 1,
+      "bagType": "PRE_TODO",
+      "assignee": "__ALL__",
+      "important": true,
+      "checked": false
+    },
+    {
+      "id": "chk_init_9",
+      "categoryId": "cat_doc",
+      "title": "국제운전면허증 + 한국 실물 운전면허증",
+      "note": "해외 렌터카 이용 시 국제면허증과 한국면허증 둘 다 제시 필수",
+      "qty": 1,
+      "bagType": "CARRY_ON",
+      "assignee": "__ALL__",
+      "important": false,
+      "checked": false
+    },
+    {
+      "id": "chk_init_10",
+      "categoryId": "cat_todo",
+      "title": "항공사 온라인 웹/모바일 체크인 & 좌석 지정",
+      "note": "출발 24~48시간 전 오픈 즉시 동행 좌석 지정 및 모바일 탑승권 발급",
+      "qty": 1,
+      "bagType": "PRE_TODO",
+      "assignee": "__ALL__",
+      "important": true,
+      "checked": false
+    },
+    {
+      "id": "chk_init_11",
+      "categoryId": "cat_todo",
+      "title": "유심(USIM) 수령 / eSIM QR 등록 / 통신사 로밍 신청",
+      "note": "출국 전 데이터 차단·보이스톡 확인 및 eSIM 활성화 가이드 캡처",
+      "qty": 1,
+      "bagType": "PRE_TODO",
+      "assignee": "__ALL__",
+      "important": true,
+      "checked": false
+    },
+    {
+      "id": "chk_init_12",
+      "categoryId": "cat_todo",
+      "title": "신용카드 해외 원화결제(DCC) 사전 차단 설정",
+      "note": "카드사 앱에서 신청 (해외 결제 시 3~8% 이중 환전 수수료 방지!)",
+      "qty": 1,
+      "bagType": "PRE_TODO",
+      "assignee": "__ALL__",
+      "important": true,
+      "checked": false
+    },
+    {
+      "id": "chk_init_13",
+      "categoryId": "cat_todo",
+      "title": "공항 이동편 예약 (공항리무진·공항철도·장기주차장)",
+      "note": "출발 3시간 전 공항 도착 기준으로 교통편 예약 완료",
+      "qty": 1,
+      "bagType": "PRE_TODO",
+      "assignee": "__ALL__",
+      "important": false,
+      "checked": false
+    },
+    {
+      "id": "chk_init_14",
+      "categoryId": "cat_todo",
+      "title": "현지 필수 앱 설치 (구글맵·그랩/볼트·파파고·번역기)",
+      "note": "그랩(Grab)/볼트 등 호출 앱은 한국에서 본인인증 및 카드 등록 미리 완료!",
+      "qty": 1,
+      "bagType": "PRE_TODO",
+      "assignee": "__ALL__",
+      "important": true,
+      "checked": false
+    },
+    {
+      "id": "chk_init_15",
+      "categoryId": "cat_todo",
+      "title": "집안 단속 (가스밸브·창문 잠금·대기전력 콘센트·음식물쓰레기)",
+      "note": "냉장고 상할 음식 정리 및 보일러 외출모드 설정",
+      "qty": 1,
+      "bagType": "PRE_TODO",
+      "assignee": "__ALL__",
+      "important": false,
+      "checked": false
+    },
+    {
+      "id": "chk_init_16",
+      "categoryId": "cat_elec",
+      "title": "보조배터리 (100Wh 이하)",
+      "note": "⚠️ 위탁수하물(캐리어) 절대 금지! 반드시 기내에 직접 들고 탑승!",
+      "qty": 1,
+      "bagType": "CARRY_ON",
+      "assignee": "__ALL__",
+      "important": true,
+      "checked": false
+    },
+    {
+      "id": "chk_init_17",
+      "categoryId": "cat_elec",
+      "title": "여행용 멀티 어댑터 (돼지코)",
+      "note": "방문 국가 콘센트 규격 확인 (USB 다포트 일체형 추천)",
+      "qty": 1,
+      "bagType": "CHECKED",
+      "assignee": "__ALL__",
+      "important": true,
+      "checked": false
+    },
+    {
+      "id": "chk_init_18",
+      "categoryId": "cat_elec",
+      "title": "3~4구 멀티탭",
+      "note": "호텔 침대 옆 콘센트가 1개뿐일 때 휴대폰·워치·보조배터리 동시 충전용",
+      "qty": 1,
+      "bagType": "CHECKED",
+      "assignee": "__SHARED__",
+      "important": false,
+      "checked": false
+    },
+    {
+      "id": "chk_init_19",
+      "categoryId": "cat_elec",
+      "title": "스마트폰·워치 초고속 충전기 & 여유 케이블",
+      "note": "기내용 짧은 케이블 1개 + 숙소용 긴 케이블 1개",
+      "qty": 2,
+      "bagType": "CARRY_ON",
+      "assignee": "__ALL__",
+      "important": true,
+      "checked": false
+    },
+    {
+      "id": "chk_init_20",
+      "categoryId": "cat_elec",
+      "title": "유심 교체용 핀 & 한국 유심 보관 미니케이스",
+      "note": "현지 유심 교체 시 한국 유심 분실 방지를 위해 테이프로 고정 보관",
+      "qty": 1,
+      "bagType": "CARRY_ON",
+      "assignee": "__ALL__",
+      "important": false,
+      "checked": false
+    },
+    {
+      "id": "chk_init_21",
+      "categoryId": "cat_elec",
+      "title": "이어폰(에어팟/버즈) & 기내용 유선 이어폰",
+      "note": "장거리 비행 기내 모니터 연결 및 소음 차단용",
+      "qty": 1,
+      "bagType": "CARRY_ON",
+      "assignee": "__ALL__",
+      "important": false,
+      "checked": false
+    },
+    {
+      "id": "chk_init_22",
+      "categoryId": "cat_med",
+      "title": "개인 상시 복용약 (혈압·당뇨·영양제 등) + 영문 처방전",
+      "note": "여행 기간보다 3~4일 여유 있게 챙기고 반드시 기내 수하물에 보관",
+      "qty": 1,
+      "bagType": "CARRY_ON",
+      "assignee": "__ALL__",
+      "important": true,
+      "checked": false
+    },
+    {
+      "id": "chk_init_23",
+      "categoryId": "cat_med",
+      "title": "해열진통제(타이레놀/이부프로펜) & 종합감기약",
+      "note": "기내·현지 급격한 온도차 및 몸살 대비 필수",
+      "qty": 1,
+      "bagType": "CARRY_ON",
+      "assignee": "__ALL__",
+      "important": true,
+      "checked": false
+    },
+    {
+      "id": "chk_init_24",
+      "categoryId": "cat_med",
+      "title": "소화제 · 지사제(정로환/스멕타) · 유산균",
+      "note": "현지 물갈이·배탈·향신료 음식 소화불량 대비 1순위 상비약",
+      "qty": 1,
+      "bagType": "CARRY_ON",
+      "assignee": "__ALL__",
+      "important": true,
+      "checked": false
+    },
+    {
+      "id": "chk_init_25",
+      "categoryId": "cat_med",
+      "title": "방수 밴드 · 소독약 · 연고(마데카솔/후시딘) · 파스",
+      "note": "많이 걸을 때 물집 방지 밴드 및 근육통 파스",
+      "qty": 1,
+      "bagType": "CHECKED",
+      "assignee": "__SHARED__",
+      "important": false,
+      "checked": false
+    },
+    {
+      "id": "chk_init_26",
+      "categoryId": "cat_med",
+      "title": "멀미약 · 알레르기약(항히스타민제) · 인공눈물",
+      "note": "배/투어버스 이동 및 갑각류·먼지 알레르기 대비",
+      "qty": 1,
+      "bagType": "CARRY_ON",
+      "assignee": "__ALL__",
+      "important": false,
+      "checked": false
+    },
+    {
+      "id": "chk_init_27",
+      "categoryId": "cat_med",
+      "title": "모기퇴치제(기피제) & 벌레물린데 바르는 약(버물리)",
+      "note": "동남아/야외 테라스 뎅기열·모기 방지 (스프레이형은 위탁수하물)",
+      "qty": 1,
+      "bagType": "CHECKED",
+      "assignee": "__SHARED__",
+      "important": false,
+      "checked": false
+    },
+    {
+      "id": "chk_init_28",
+      "categoryId": "cat_med",
+      "title": "휴대용 물티슈 · 손소독 티슈 · 포켓 화장지",
+      "note": "해외 식당·화장실에 휴지가 없는 경우 대비 상시 휴대",
+      "qty": 3,
+      "bagType": "CARRY_ON",
+      "assignee": "__ALL__",
+      "important": true,
+      "checked": false
+    },
+    {
+      "id": "chk_init_29",
+      "categoryId": "cat_cloth",
+      "title": "속옷 & 양말 (여행 일수 + 여분 2벌)",
+      "note": "땀을 많이 흘리거나 물놀이 일정 시 여유 있게 준비",
+      "qty": 5,
+      "bagType": "CHECKED",
+      "assignee": "__ALL__",
+      "important": true,
+      "checked": false
+    },
+    {
+      "id": "chk_init_30",
+      "categoryId": "cat_cloth",
+      "title": "일차별 외출복 코디 세트 (상의·하의)",
+      "note": "사원/성당 방문 일정이 있다면 무릎·어깨를 가리는 단정한 복장 1벌 필수!",
+      "qty": 4,
+      "bagType": "CHECKED",
+      "assignee": "__ALL__",
+      "important": true,
+      "checked": false
+    },
+    {
+      "id": "chk_init_31",
+      "categoryId": "cat_cloth",
+      "title": "가벼운 긴팔 가디건 / 바람막이 / 경량패딩",
+      "note": "기내 및 해외 쇼핑몰·식당의 강한 에어컨 냉방병 방지용 (기내 휴대)",
+      "qty": 1,
+      "bagType": "CARRY_ON",
+      "assignee": "__ALL__",
+      "important": true,
+      "checked": false
+    },
+    {
+      "id": "chk_init_32",
+      "categoryId": "cat_cloth",
+      "title": "편안한 잠옷 / 숙소 실내복",
+      "note": "숙소에서 편하게 입을 수 있는 옷",
+      "qty": 1,
+      "bagType": "CHECKED",
+      "assignee": "__ALL__",
+      "important": false,
+      "checked": false
+    },
+    {
+      "id": "chk_init_33",
+      "categoryId": "cat_cloth",
+      "title": "선글라스 · 모자 · 초경량 양우산(우비)",
+      "note": "자외선 차단 및 갑작스러운 스콜(소나기) 대비",
+      "qty": 1,
+      "bagType": "CARRY_ON",
+      "assignee": "__ALL__",
+      "important": false,
+      "checked": false
+    },
+    {
+      "id": "chk_init_34",
+      "categoryId": "cat_cloth",
+      "title": "발 편한 워킹화(운동화) & 숙소/비치용 슬리퍼(샌들)",
+      "note": "해외 호텔은 일회용 슬리퍼가 없거나 얇은 경우가 많음",
+      "qty": 1,
+      "bagType": "CHECKED",
+      "assignee": "__ALL__",
+      "important": true,
+      "checked": false
+    },
+    {
+      "id": "chk_init_35",
+      "categoryId": "cat_wash",
+      "title": "칫솔 · 치약 · 치실 세트",
+      "note": "⚠️ 환경규제로 해외 호텔에 칫솔/치약이 없는 곳 다수 (100ml 초과 치약은 위탁!)",
+      "qty": 1,
+      "bagType": "CHECKED",
+      "assignee": "__ALL__",
+      "important": true,
+      "checked": false
+    },
+    {
+      "id": "chk_init_36",
+      "categoryId": "cat_wash",
+      "title": "클렌징폼 · 샴푸 · 트래블 바디워시 · 린스",
+      "note": "⚠️ 100ml 초과 액체/젤은 반드시 위탁수하물(캐리어)에 넣고 지퍼백 밀봉",
+      "qty": 1,
+      "bagType": "CHECKED",
+      "assignee": "__ALL__",
+      "important": true,
+      "checked": false
+    },
+    {
+      "id": "chk_init_37",
+      "categoryId": "cat_wash",
+      "title": "자외선 차단제 (선크림 / 선스틱) & 알로에 수딩젤",
+      "note": "선스틱은 수시로 덧바르기 편리하며 기내 반입도 가능",
+      "qty": 1,
+      "bagType": "CHECKED",
+      "assignee": "__ALL__",
+      "important": true,
+      "checked": false
+    },
+    {
+      "id": "chk_init_38",
+      "categoryId": "cat_wash",
+      "title": "기초 스킨케어 · 색조 화장품 · 립밤 · 마스크팩",
+      "note": "건조한 기내용 미니 립밤/핸드크림(100ml 이하)만 기내 파우치에 분리",
+      "qty": 1,
+      "bagType": "CHECKED",
+      "assignee": "__ALL__",
+      "important": false,
+      "checked": false
+    },
+    {
+      "id": "chk_init_39",
+      "categoryId": "cat_wash",
+      "title": "손톱깎이 · 눈썹칼 · 미니 가위 · 면봉/화장솜",
+      "note": "⚠️ 칼날·가위·손톱깎이류는 기내 반입 시 압수! 반드시 위탁 캐리어에 보관",
+      "qty": 1,
+      "bagType": "CHECKED",
+      "assignee": "__ALL__",
+      "important": false,
+      "checked": false
+    },
+    {
+      "id": "chk_init_40",
+      "categoryId": "cat_food",
+      "title": "비상 한식 (튜브 고추장 · 조미김 · 미니 컵라면 · 볶음김치)",
+      "note": "⚠️ 튜브 고추장·김치(액체류)는 100ml 초과 시 반드시 위탁 캐리어로! (육류성분 반입주의)",
+      "qty": 1,
+      "bagType": "CHECKED",
+      "assignee": "__SHARED__",
+      "important": false,
+      "checked": false
+    },
+    {
+      "id": "chk_init_41",
+      "categoryId": "cat_food",
+      "title": "지퍼백 (대·중·소 여유분) & 세탁물용 큰 비닐봉투",
+      "note": "액체류 누수 방지, 젖은 옷/빨래 분리, 영수증 보관 등 다용도 활용",
+      "qty": 5,
+      "bagType": "CHECKED",
+      "assignee": "__ALL__",
+      "important": true,
+      "checked": false
+    },
+    {
+      "id": "chk_init_42",
+      "categoryId": "cat_food",
+      "title": "폴딩백(접이식 보스턴백) & 휴대용 수하물 손저울",
+      "note": "귀국 시 기념품/쇼핑으로 늘어난 짐 분리 및 수하물 무게 초과 방지",
+      "qty": 1,
+      "bagType": "CHECKED",
+      "assignee": "__SHARED__",
+      "important": false,
+      "checked": false
+    },
+    {
+      "id": "chk_init_43",
+      "categoryId": "cat_food",
+      "title": "기내 3종 세트 (목베개 · 안대 · 귀마개) & 볼펜 1자루",
+      "note": "볼펜은 기내에서 종이 입국신고서 작성 시 바로 필요함!",
+      "qty": 1,
+      "bagType": "CARRY_ON",
+      "assignee": "__ALL__",
+      "important": false,
+      "checked": false
+    },
+    {
+      "id": "chk_init_44",
+      "categoryId": "cat_theme",
+      "title": "공용 회비(공금) 현금 지갑 & 영수증 보관 파일",
+      "note": "총무 담당: 일차별 영수증 모으기 및 개인 지갑과 공금 지갑 철저 분리",
+      "qty": 1,
+      "bagType": "CARRY_ON",
+      "assignee": "__SHARED__",
+      "important": true,
+      "checked": false
+    },
+    {
+      "id": "chk_init_45",
+      "categoryId": "cat_theme",
+      "title": "동행자 비상연락망 & 현지 대한민국 대사관/영사관 연락처",
+      "note": "일행 이탈 및 긴급상황 대비 단톡방 공지 및 메모 보관",
+      "qty": 1,
+      "bagType": "CARRY_ON",
+      "assignee": "__SHARED__",
+      "important": true,
+      "checked": false
+    }
+  ],
+  "updatedAt": 1794892801071
 }
